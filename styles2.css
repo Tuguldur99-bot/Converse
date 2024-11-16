@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .header {
+    background-color: #ffffff; /* White background for header */
+    color: #000; /* Black text for contrast */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  }
+  
+  .header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000; /* Matches orange theme */
+  }
+  
+  .header .actions a img {
+    vertical-align: middle;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  .dashboard {
+    padding: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stat-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .stat-card:last-child {
+    margin-right: 0;
+  }
+  
+  .stat-card h3 {
+    margin: 0;
+    color: #555;
+  }
+  
+  .orders {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .orders table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .orders th,
+  .orders td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .orders th {
+    background-color: #000000;
+    color: #fff;
+  }
+  .header .actions a {
+    text-decoration: none; /* Removes underline from links */
+    display: inline-block; /* Ensures proper alignment of the icons */
+    margin: 0 10px; /* Adds spacing between the icons */
+  }
+  
+  

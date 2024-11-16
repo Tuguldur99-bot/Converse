@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel - Converse</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo"><img src="converse.svg"  width="100" height="30"></div>
+    <div class="actions">
+      <a href="#" class="cart-btn">
+        <img src="cart.jpg" alt="Cart" width="30" height="30">
+      </a>
+      <a href="#" class="profile-btn">
+        <img src="profile.jpg"g alt="Profile" width="30" height="30">
+      </a>
+      <a href="#" class="search-btn">
+        <img src="search.jpg" alt="Search" width="40" height="30">
+      </a>
+    </div>
+  </header>
+
+  <main class="dashboard">
+    <section class="stats">
+      <div class="stat-card" id="pending">
+        <h3>Order Pending</h3>
+        <p>2</p>
+      </div>
+      <div class="stat-card" id="cancel">
+        <h3>Order Cancel</h3>
+        <p>0</p>
+      </div>
+      <div class="stat-card" id="process">
+        <h3>Order Process</h3>
+        <p>5</p>
+      </div>
+      <div class="stat-card" id="income">
+        <h3>Today's Income</h3>
+        <p>$9568.00</p>
+      </div>
+    </section>
+
+    <section class="orders">
+      <h2>Recent Orders</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Order ID</th>
+            <th>Payment Method</th>
+            <th>Order Date</th>
+            <th>Delivery Date</th>
+            <th>Status</th>
+            <th>Total</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>543543543</td>
+            <td>Cash</td>
+            <td>September 8th, 2020</td>
+            <td>September 12th, 2020</td>
+            <td>Processing</td>
+            <td>$3400</td>
+            <td><button>Edit</button></td>
+          </tr>
+          <script src="script.js"></script>
+
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
