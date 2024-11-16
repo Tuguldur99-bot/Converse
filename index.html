@@ -1,1 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initianl-scale=1">
+    <title>Converse Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+            .product-card {
+                background: #fff;
+                padding: 15px;
+                border-radius: 5px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                text-align: center;
+                width: 200px;
+            }
+            .product-image {
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+            }
+            .text {
+                font-size:1.1em;
+                font-weight:bold;
+                text-align: left;
+            }
+            .product-name {
+                font-size: 0.7em;
+                margin: 10px;
+                color: #333;
+                font-weight: bold;
+            }
+            .product-price {
+                color: #333;
+                font-weight: bold;
+            }
+            .products-container {
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+                margin-top: 20px;
+                margin-bottom:20px;
+                font-size:0.8em;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <nav class="navbar">
+            <img class="logo" src="Logo.jpg" alt="Converse Logo">
+            <div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Clothes</a></li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#" class="explore-btn">Search</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+        <div class="places">
+            <h3>Shop By Style</h3>
+            <div class="places-grid">
+                <div class="place-card">
+                    <img src="shoes_3.jpg" >
+                    <h1>SHOES</h1>
+                    <p>Гутал</p>
+                    <a href="#" class="discover-btn">Add to Cart</a>
+                </div>
+                <div class="place-card">
+                    <img src="clothes.jpg" >
+                    <h1>CLOTHES</h1>
+                    <p>Хувцас</p>
+                    <a href="#" class="discover-btn">Add to Cart</a>
+                </div>
+                <div class="place-card">
+                    <img src="accessories.jpg" >
+                    <h1>ACCESSORIES</h1>
+                    <p>Хэрэгсэл</p>
+                    <a href="#" class="discover-btn">Add to Cart</a>
+                </div>
+                <div class="place-card">
+                    <img src="kids.jpg" >
+                    <h1>KIDS</h1>
+                    <p>Хүүхэд</p>
+                    <a href="#" class="discover-btn">Add to Cart</a>
+                </div>
+                <div class="place-card">
+                    <img src="men.jpg" >
+                    <h1>MALE</h1>
+                    <p>Эрэгтэй</p>
+                    <a href="#" class="discover-btn">Add to Cart</a>
+                </div>
+                <div class="place-card">
+                    <img src="female.jpg" >
+                    <h1>FEMALE</h1>
+                    <p>Эмэгтэй</p>
+                    <a href="#" class="discover-btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    <div class="products-container">
+        <div class="text">Шинэ бараа</div>
+        <div class="product-card">
+            <img src="P1.jpg" alt="Product 1" class="product-image">
+            <div class="product-name">CHUCK TAYLOR ALL STAR CRUSH HEEL</div>
+            <div class="product-price">249,900 ₮</div>
+        </div>
+
+        <div class="product-card">
+            <img src="P2.jpg" alt="Product 2" class="product-image">
+            <div class="product-name">CHUCK TAYLOR ALL STAR LIFT</div>
+            <div class="product-price">244,930 ₮</div>
+        </div>
+
+        <div class="product-card">
+            <img src="P3.jpg" alt="Product 3" class="product-image">
+            <div class="product-name">CHUCK TAYLOR ALL STAR CITY TREK WP</div>
+            <div class="product-price">321,930 ₮</div>
+        </div>
+
+        <div class="product-card">
+            <img src="P4.jpg" alt="Product 4" class="product-image">
+            <div class="product-name">CHUCK TAYLOR ALL STAR LIFT</div>
+            <div class="product-price">216,930 ₮ </div>
+        </div>
+
+        <div class="product-card">
+            <img src="P5.jpg" alt="Product 5" class="product-image">
+            <div class="product-name">CHUCK 70</div>
+            <div class="product-price">399,900 ₮</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>Хаяг</h3>
+                Максмолл 3 давхарт<br>
+                Улаанбаатар Их Дэлгүүр 3 давхарт<br>
+                Хүннү Молл төвийн В1 давхарт<br>
+                Улсын Их Дэлгүүр 3 давхарт<br>
+            </div>
+            <div class="footer-center" style="  flex: 1; min-width: 200px; text-align: right;">
+                <h3>Бидний тухай</h3>
+                Converse-ийн тухай<br>
+                БльюМон групп
+            </div>
+            <div class="footer-right">
+                <p>Биднийг дагаарай</p>
+                <div class="social-icons">
+                    <a href="#"><img src="facebook.jpg" width="30px" heigth="auto"></a> 
+                    <a href="#"><img src="instagram.jpg" width="30px" heigth="auto"></a> 
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2024 All Rights Reserved</p>
+    </div>
+
+</body>
+</html>
 
