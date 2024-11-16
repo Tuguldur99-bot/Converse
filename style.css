@@ -15,40 +15,45 @@ body {
 }
 
 .navbar {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px 20px;
-    position: fixed;
-    top: 0; 
-    background: black;
-    z-index: 2;
-}
-
-.logo {
-    width: 100px;
-    height: auto;
-}
-
-.navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.navbar a {
-    color: #ffffff;
+    padding: 20px 0px;
+    background-color: white;
+    border-bottom: 1px solid #090909;
+    width:100%;
+    box-sizing: border-box;
+  }
+  .navbar a {
     text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  .navbar a:hover {
+    color: gray;
+  }
+  .navbar .logo {
     font-weight: bold;
-}
 
-.explore-btn {
-    background: #6b283a;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 20px;
-}
+  }
+  .navbar .menu {
+    display: flex;
+    flex-grow:1;
+    align-items:center;
+    gap:5px;
+  }
+  .navbar .menu-icons {
+    display: flex;
+    align-items: center;
+    gap:10px;
+  }
+  .navbar .menu-icons a {
+    margin: 0 5px;
+  }
+  .navbar .menu-icons i {
+    font-size: 18px;
+  }
 
 .places {
     padding: 50px 20px;
