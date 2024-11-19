@@ -1002,3 +1002,163 @@ body {
     color: #007bff;
   }
     
+  .P10container {
+    width: 80%;
+    max-width: 1360px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .P10row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .P10right{
+    flex: 0 0 66.6666667%;
+    max-width: 66.6666667%;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .P10left{
+    flex: 0 0 33.3333333%;
+    max-width: 33.3333333%;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .P10step-title {
+    height: 32px;
+    display: flex;
+    align-items: flex-end;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+  #h2 {
+      height: 32px;
+      display: flex;
+      align-items: flex-end;
+      -webkit-box-pack: start;
+      justify-content: flex-start;
+      margin-bottom: 20px;
+  
+  }
+
+  #h3 {
+    color: #333;
+  }
+  
+  .P10radio-group {
+    display: flex;
+    gap: 300px;
+    margin-bottom: 20px;
+  }
+
+  .P10form-row2 {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -5px;
+      margin-left: -5px;
+  }
+  
+  .P10radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .P10form-group {
+    margin-bottom: 20px;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .P10form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .P10form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .P10form-row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .P10order-summary {
+    margin-top: 20px;
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  .P10bill {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 15px 10px;
+    transition: 200ms ease-in-out;
+    border: 2px solid rgb(0, 0, 0);
+    position: relative;
+  }
+
+  .P10bill2 {
+    width: 100%;
+    display: block;
+    color: rgb(22, 22, 22);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 13px 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border: 2px solid rgb(22, 22, 22);
+    transition: 200ms ease-in-out;
+    position: relative;
+  }
+
+  .P10order-summary p {
+    margin: 0 0 10px;
+  }
+  
+  .P10order-summary strong {
+    font-size: 1.2em;
+    color: #000;
+  }
+  
+  .P10form-actions {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .P10form-actions button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .P10form-actions button:hover {
+    background: #555;
+  }
+  

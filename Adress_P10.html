@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initianl-scale=1">
+    <title>Converse Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+        <nav class="navbar">
+            <div class="logo"><img src="Logo.jpg" width="100px"> </div>
+            <div class="menu">
+              <a href="#">Гутал</a>
+              <a href="#">Хувцас</a>
+              <a href="#">Хэрэглэл</a>
+              <a href="#">Хүүхэд</a>
+              <a href="#">Sale</a>
+              <a href="#">Шинэ бараа</a>
+            </div>
+            <div class="menu-icons">
+              <a href="#"><i class="fa-regular fa-user"></i></i></a>
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href="#"><i class="fa-solid fa-heart"></i></a>
+              <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+          </nav>
+    </div>
+    <div class="P10container">
+        <div class="P10row">
+            <div class="P10right">
+            
+        <form class="P10order-form">
+          <h4 id="h2">Хүргэлтийн хаяг</h4>
+          
+          <div class="P10radio-group">
+            <label>
+              <input type="radio" name="userType" checked> 🧑‍💼 Хувь хүн
+            </label>
+            <label >
+              <input type="radio" name="userType"> 🏢 Албан байгууллага
+            </label>
+          </div>
+
+    <div class="P10form-row2">
+          <div class="P10form-group">
+            <label>Нэр</label>
+            <input type="text" placeholder="Нэрээ оруулна уу">
+          </div>
+    
+          <div class="P10form-group">
+            <label>Овог</label>
+            <input type="text" placeholder="Овогоо оруулна уу">
+          </div>
+        </div>
+    
+        <div class="P10form-row2">
+          <div class="P10form-group">
+            <label>Имэйл</label>
+            <input type="email" placeholder="name@example.com">
+          </div>
+    
+          <div class="P10form-group">
+            <label>Утасны дугаар</label>
+            <input type="text" placeholder="Утасны дугаараа оруулна уу">
+          </div>
+        </div>
+    
+          <div class="P10form-group">
+            <label>what3words хаяг (Заавал бус)</label>
+            <input type="text" placeholder="e.g. ///filled.count.soap">
+          </div>
+
+          <div class="P10form-group">
+            <label>Дэлгэрэнгүй хаяг</label>
+            <input type="text" placeholder="BZD 1r horoo 59-1">
+          </div>
+    
+          <div class="P10form-row">
+            <div class="P10form-group">
+                <label for="aimags">Аймгаа сонгоно уу:</label>
+                <select id="aimags" name="aimags">
+                    <option value="arkhangai">Архангай</option>
+                    <option value="bayankhongor">Баянхонгор</option>
+                    <option value="bayan-ulgii">Баян-Өлгий</option>
+                    <option value="bulgan">Булган</option>
+                    <option value="govi-altai">Говь-Алтай</option>
+                    <option value="govisumber">Говьсүмбэр</option>
+                    <option value="darkhan-uul">Дархан-Уул</option>
+                    <option value="dornogovi">Дорноговь</option>
+                    <option value="dornod">Дорнод</option>
+                    <option value="dundgovi">Дундговь</option>
+                    <option value="zavkhan">Завхан</option>
+                    <option value="orkhon">Орхон</option>
+                    <option value="uvurkhangai">Өвөрхангай</option>
+                    <option value="uvs">Увс</option>
+                    <option value="sukhbaatar">Сүхбаатар</option>
+                    <option value="selenge">Сэлэнгэ</option>
+                    <option value="tuv">Төв</option>
+                    <option value="umnogovi">Өмнөговь</option>
+                    <option value="khovd">Ховд</option>
+                    <option value="khuvsgul">Хөвсгөл</option>
+                    <option value="khentii">Хэнтий</option>
+                    <option value="ulaanbaatar">Улаанбаатар</option>
+                </select>            
+            </div>
+
+            <div class="P10form-group">
+                <label for="districts">Сум/Хороо сонгоно уу:</label>
+                <select id="districts" name="districts">
+                    <option value="tsetserleg">Цэцэрлэг (Архангай)</option>
+                    <option value="bulgan">Булган (Архангай)</option>
+                    <option value="ikhtamir">Ихтамир (Архангай)</option>
+                    <option value="erdenemandal">Эрдэнэмандал (Архангай)</option>
+                    <option value="tariat">Тариат (Архангай)</option>
+                    <option value="bayangol">Баянгол (Улаанбаатар)</option>
+                    <option value="bayanzurkh">Баянзүрх (Улаанбаатар)</option>
+                    <option value="songinokhairkhan">Сонгинохайрхан (Улаанбаатар)</option>
+                    <option value="sukhbaatar">Сүхбаатар (Улаанбаатар)</option>
+                    <option value="bagakhangai">Багахангай (Улаанбаатар)</option>
+                    <option value="baganuur">Багануур (Улаанбаатар)</option>
+                    <option value="nalaikh">Налайх (Улаанбаатар)</option>
+                    <option value="khan-uul">Хан-Уул (Улаанбаатар)</option>
+                    <option value="sharga">Шарга (Говь-Алтай)</option>
+                    <option value="tsetseg">Цэцэг (Ховд)</option>
+                    <option value="murun">Мөрөн (Хөвсгөл)</option>
+                    <option value="kharkhorin">Хархорин (Өвөрхангай)</option>
+                    <option value="saikhan">Сайхан (Булган)</option>
+                    <option value="khujirt">Хужирт (Өвөрхангай)</option>
+                    <option value="shinejinst">Шинэжинст (Баянхонгор)</option>
+                </select>                
+            </div>
+          </div>
+    
+          <div class="P10form-row">
+            <div class="P10form-group">
+              <label for="units">Хороо/Баг сонгоно уу:</label>
+<select id="units" name="units">
+    <option value="horoo1">1-р хороо (Баянзүрх)</option>
+    <option value="horoo2">2-р хороо (Баянзүрх)</option>
+    <option value="horoo3">3-р хороо (Баянзүрх)</option>
+    <option value="horoo4">4-р хороо (Баянзүрх)</option>
+    <option value="horoo5">5-р хороо (Сонгинохайрхан)</option>
+    <option value="horoo6">6-р хороо (Сонгинохайрхан)</option>
+    <option value="horoo7">7-р хороо (Сүхбаатар)</option>
+    <option value="horoo8">8-р хороо (Сүхбаатар)</option>
+    <option value="horoo9">9-р хороо (Баянгол)</option>
+    <option value="horoo10">10-р хороо (Баянгол)</option>
+    <option value="horoo11">11-р хороо (Хан-Уул)</option>
+    <option value="horoo12">12-р хороо (Хан-Уул)</option>
+    <option value="bag1">1-р баг (Цэцэрлэг)</option>
+    <option value="bag2">2-р баг (Цэцэрлэг)</option>
+    <option value="bag3">3-р баг (Эрдэнэмандал)</option>
+    <option value="bag4">4-р баг (Эрдэнэмандал)</option>
+    <option value="bag5">5-р баг (Тариат)</option>
+    <option value="bag6">6-р баг (Тариат)</option>
+    <option value="bag7">7-р баг (Шарга)</option>
+    <option value="bag8">8-р баг (Шарга)</option>
+</select>
+            </div>
+          </div>
+        </div>
+        <div class="P10left">
+          <div class="P10order-summary">
+            <h3 id="h3">Захиалгын мэдээлэл</h3>
+            <br>
+            <p>БАРААНЫ НЭР</p>
+            <strong>НИЙТ ҮНЭ</strong>
+          </div>
+    
+          <div class="P10form-actions">
+            <div class="P10bill">
+            <button type="button">Төлбөрийн нөхцөл сонгох</button>
+        </div><br><div class="P10bill2">
+            <button type="button">Өмнөх алхам руу буцах</button>
+        </div>
+          </div>
+        </div>
+        </div>
+        </form>
+      </div>
+      <div class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>Хаяг</h3>
+                Максмолл 3 давхарт<br>
+                Улаанбаатар Их Дэлгүүр 3 давхарт<br>
+                Хүннү Молл төвийн В1 давхарт<br>
+                Улсын Их Дэлгүүр 3 давхарт<br>
+            </div>
+            <div class="footer-center" style="  flex: 1; min-width: 200px; text-align: right;">
+                <h3>Бидний тухай</h3>
+                Converse-ийн тухай<br>
+                БльюМон групп
+            </div>
+            <div class="footer-right">
+                <p>Биднийг дагаарай</p>
+                <div class="social-icons">
+                    <a href="#"><img src="facebook.jpg" width="30px" heigth="auto"></a> 
+                    <a href="#"><img src="instagram.jpg" width="30px" heigth="auto"></a> 
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2024 All Rights Reserved</p>
+    </div>
+</body>
+</html>
