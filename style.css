@@ -305,6 +305,74 @@ body {
 
 #next-btn {
     right: -20px; 
-
-
-
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh; /* Adjust to match your header and footer */
+    background-color: #f0f0f0;
+  }
+  
+  .middle-box {
+    background-color: #d3d3d3;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn.gray {
+    background-color: #808080;
+    color: white;
+  }
+  
+  .btn.black {
+    background-color: black;
+    color: white;
+  }
+  
+  .btn.red {
+    background-color: #ff4d4d;
+    color: white;
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+  .btn.admin {
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .or {
+    margin: 10px 0;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .gmail-input {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
