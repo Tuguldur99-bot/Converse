@@ -1,86 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+  color: #040404;
+  background: #f8f9fa;
+}
+
+.header {
+  padding: 20px;
+}
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-left, .footer-right {
+  flex: 1;
+  min-width: 200px;
+  text-align: left;
+}
+
+.footer-right .social-icons a {
+  color: #fff;
+  font-size: 1.5em;
+  margin-right: 10px;
+
+}
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #aaa;
+}
+@media (min-width: 660px) and (max-width: 980px){
+  .container {
+      width: 768px;
+      margin: 0 auto; 
   }
-  
-  .header {
-    background-color: #ffffff; /* White background for header */
-    color: #000; /* Black text for contrast */
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+
+@media (min-width: 481px) and (max-width: 659px) {
+  .container {
+      width: 96%;
+      display: block;
+      margin: 0 auto; 
   }
-  
-  .header .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #000000; /* Matches orange theme */
+  .product{
+      display: block;
   }
-  
-  .header .actions a img {
-    vertical-align: middle;
-    margin-left: 15px;
-    cursor: pointer;
+}
+
+
+@media (max-width: 480px) {
+  .container {
+      width: 96%;
+      display: block;
+      margin: 0 auto; 
   }
-  
-  .dashboard {
-    padding: 20px;
-  }
-  
-  .stats {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .stat-card {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
-    flex: 1;
-    margin-right: 10px;
-  }
-  
-  .stat-card:last-child {
-    margin-right: 0;
-  }
-  
-  .stat-card h3 {
-    margin: 0;
-    color: #555;
-  }
-  
-  .orders {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-  }
-  
-  .orders table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .orders th,
-  .orders td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-  }
-  
-  .orders th {
-    background-color: #000000;
-    color: #fff;
-  }
-  .header .actions a {
-    text-decoration: none; /* Removes underline from links */
-    display: inline-block; /* Ensures proper alignment of the icons */
-    margin: 0 10px; /* Adds spacing between the icons */
-  }
-  
-  
+}
+/* Main Container */
+.product-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Top Bar */
+.top-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.top-button {
+  background-color: #fbb03b;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.top-button:hover {
+  background-color: #ffa500;
+}
+
+/* Product List */
+.product-list {
+  background-color: #0057b8;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.product-row {
+  display: flex;
+  gap: 10px;
+  background-color: #0057b8;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.product-cell {
+  flex: 1;
+  text-align: center;
+  background-color: #fbb03b;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}

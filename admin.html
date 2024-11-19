@@ -1,76 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Panel - Converse</title>
-  <link rel="stylesheet" href="styles2.css">
+    <meta name="viewport" content="width=device-width, initianl-scale=1">
+    <title>Converse Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
-    <div class="logo"><img src="converse.svg"  width="100" height="30"></div>
-    <div class="actions">
-      <a href="#" class="cart-btn">
-        <img src="cart.jpg" alt="Cart" width="30" height="30">
-      </a>
-      <a href="#" class="profile-btn">
-        <img src="profile.jpg"g alt="Profile" width="30" height="30">
-      </a>
-      <a href="#" class="search-btn">
-        <img src="search.jpg" alt="Search" width="40" height="30">
-      </a>
+
+    <div class="header">
+        <nav class="navbar">
+            <div class="logo"><img src="Logo.jpg" width="100px"> </div>
+            <div class="menu">
+              <a href="#">Гутал</a>
+              <a href="#">Хувцас</a>
+              <a href="#">Хэрэглэл</a>
+              <a href="#">Хүүхэд</a>
+              <a href="#">Sale</a>
+              <a href="#">Шинэ бараа</a>
+            </div>
+            <div class="menu-icons">
+              <a href="#"><i class="fa-regular fa-user"></i></i></a>
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+          </nav>
     </div>
-  </header>
 
-  <main class="dashboard">
-    <section class="stats">
-      <div class="stat-card" id="pending">
-        <h3>Order Pending</h3>
-        <p>2</p>
+    <div class="dashboard-container">
+      <!-- Summary Boxes -->
+      <div class="summary-boxes">
+        <div class="summary-box purple">
+          <p class="summary-title">ORDER PENDING</p>
+          <p class="summary-value">2</p>
+          <i class="icon">&#128340;</i>
+        </div>
+        <div class="summary-box red">
+          <p class="summary-title">ORDER CANCEL</p>
+          <p class="summary-value">0</p>
+          <i class="icon">&#10060;</i>
+        </div>
+        <div class="summary-box blue">
+          <p class="summary-title">ORDER PROCESS</p>
+          <p class="summary-value">5</p>
+          <i class="icon">&#10227;</i>
+        </div>
+        <div class="summary-box green">
+          <p class="summary-title">TODAY INCOME</p>
+          <p class="summary-value">$9568.00</p>
+          <i class="icon">&#128176;</i>
+        </div>
       </div>
-      <div class="stat-card" id="cancel">
-        <h3>Order Cancel</h3>
-        <p>0</p>
+    
+      <!-- Recent Orders -->
+      <div class="recent-orders">
+        <div class="orders-header">
+          <h3>Recent Orders</h3>
+          <button class="view-all-button">View All</button>
+        </div>
+        <table class="orders-table">
+          <thead>
+            <tr>
+              <th>Order ID</th>
+              <th>Payment Method</th>
+              <th>Order Date</th>
+              <th>Delivery Date</th>
+              <th>Status</th>
+              <th>Total</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>543645314843</td>
+              <td>cash</td>
+              <td>September 8th 2020<br>10:20:48 am</td>
+              <td>September 12th 2020</td>
+              <td><span class="status processing">processing</span></td>
+              <td>₹3400</td>
+              <td><span class="action-icons">&#128065; &#128465;</span></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <div class="stat-card" id="process">
-        <h3>Order Process</h3>
-        <p>5</p>
-      </div>
-      <div class="stat-card" id="income">
-        <h3>Today's Income</h3>
-        <p>$9568.00</p>
-      </div>
-    </section>
+    </div>
+    
+    
+    <script src="script.js"></script>
 
-    <section class="orders">
-      <h2>Recent Orders</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Order ID</th>
-            <th>Payment Method</th>
-            <th>Order Date</th>
-            <th>Delivery Date</th>
-            <th>Status</th>
-            <th>Total</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>543543543</td>
-            <td>Cash</td>
-            <td>September 8th, 2020</td>
-            <td>September 12th, 2020</td>
-            <td>Processing</td>
-            <td>$3400</td>
-            <td><button>Edit</button></td>
-          </tr>
-          <script src="script.js"></script>
-
-        </tbody>
-      </table>
-    </section>
-  </main>
 </body>
 </html>
+
