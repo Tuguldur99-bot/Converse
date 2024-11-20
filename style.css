@@ -1588,3 +1588,95 @@ input {
     margin: 10px 0;
     text-align: center;
 }
+
+.P12container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.P12sidebar {
+  width: 20%;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.P12sidebar h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.P12sidebar ul {
+  margin-bottom: 20px;
+}
+
+.P12sidebar li {
+  margin-bottom: 8px;
+}
+
+.P12product-grid {
+  width: 80%;
+}
+
+.P12header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.P12header h2 {
+  font-size: 24px;
+}
+
+.P12brand-filter {
+  padding: 5px 10px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.P12products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.P12product {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.P12product img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.P12product .name {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.P12product .price {
+  font-size: 14px;
+  color: #333;
+}
+
+.P12product .discounted {
+  color: red;
+  font-weight: bold;
+}
+
+.P12product .original {
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 5px;
+}
