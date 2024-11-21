@@ -1602,10 +1602,19 @@ input {
   border-radius: 8px;
 }
 
-.P12sidebar h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
+.P12sidebar {
+  color: #000; /* Replace #000 with the header text color */
 }
+
+.P12sidebar a {
+  color: #000; /* Match header link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.P12sidebar a:hover {
+  color: #ff0000; /* Add hover effect if needed */
+}
+
 
 .P12sidebar ul {
   margin-bottom: 20px;
