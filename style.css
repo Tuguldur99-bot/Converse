@@ -1205,7 +1205,7 @@ input {
 
 .container1 {
   display: grid;
-  grid-template-columns: 4fr 2fr;
+  grid-template-columns: 3fr 2fr;
   gap: 20px;
   max-width: 1200px;
   margin: 20px auto;
@@ -1214,13 +1214,15 @@ input {
 }
 
 .product-images1 {
+  grid-column: 1 / 2;
   display: flex;
   justify-content: space-between;
   gap: 10px;
 }
 
 .product-images1 img {
-  width: 70%;
+  width: 100%;
+  max-width: 400px; 
   border: 1px solid #ddd;
   border-radius: 4px;
   transition: transform 0.3s, filter 0.3s;
@@ -1237,7 +1239,10 @@ input {
   background-color: black;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
+.product-info1 {
+  grid-column: 2 / 3; 
+  margin-top: 20px;
+}
 .product-info1 h1 {
   font-size: 24px;
   margin-bottom: 10px;
