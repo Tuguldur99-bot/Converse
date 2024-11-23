@@ -1204,10 +1204,10 @@ input {
 }
 
 .container1 {
-  display: grid;
+  display: flex;
   grid-template-columns: 3fr 2fr;
   gap: 20px;
-  max-width: 1200px;
+  max-width: 1360px;
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
@@ -1218,6 +1218,8 @@ input {
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
 }
 
 .product-images1 img {
@@ -1242,6 +1244,8 @@ input {
 .product-info1 {
   grid-column: 2 / 3; 
   margin-top: 20px;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
 }
 .product-info1 h1 {
   font-size: 24px;
@@ -1300,6 +1304,7 @@ input {
 .product-details1 {
   grid-column: span 2;
   margin-top: 20px;
+  flex: 0 0 66.666667%;
 }
 
 .product-details1 table {
@@ -1731,3 +1736,5 @@ input {
   margin: 10px 0;
   color: white; 
 }
+
+
