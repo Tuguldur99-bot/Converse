@@ -1755,7 +1755,7 @@ input {
   border-radius: 5px;
 }
 .finish-button {
-  background-color: #4CAF50;
+  background-color: #000000;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -1766,7 +1766,7 @@ input {
 }
 
 .finish-button:hover {
-  background-color: #45a049;
+  background-color: #000000;
 }
 input[type="file"] {
   width: 100%;
