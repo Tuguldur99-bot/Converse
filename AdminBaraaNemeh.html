@@ -36,25 +36,75 @@
     
 
       <div class="product-list">
+        <!-- Header Row (labels) -->
         <div class="product-row">
-          <div class="product-cell">Бараа зураг</div>
-          <div class="product-cell">Нэр</div>
-          <div class="product-cell">Үнэ</div>
-          <div class="product-cell">Ширхэг</div>
+          <div class="product-cell"><strong>Бараа зураг</strong></div>
+          <div class="product-cell"><strong>Нэр</strong></div>
+          <div class="product-cell"><strong>Үнэ</strong></div>
+          <div class="product-cell"><strong>Ширхэг</strong></div>
         </div>
+      
+        <!-- First Product Row -->
         <div class="product-row">
-          <div class="product-cell">Бараа зураг</div>
-          <div class="product-cell">Нэр</div>
-          <div class="product-cell">Үнэ</div>
-          <div class="product-cell">Ширхэг</div>
+          <div class="product-cell">
+            <input type="file" accept="image/*" onchange="previewImage(this, 'preview1')" />
+            <img id="preview1" src="#" alt="Зураг" style="display: none; width: 100px; margin-top: 5px;" />
+          </div>
+          <div class="product-cell">
+            <input type="text" placeholder="Барааны нэр" />
+          </div>
+          <div class="product-cell">
+            <input type="number" placeholder="₮ Үнэ" />
+          </div>
+          <div class="product-cell">
+            <input type="number" placeholder="Ширхэг тоо" />
+          </div>
         </div>
+      
+        <!-- Second Product Row -->
         <div class="product-row">
-          <div class="product-cell">Бараа зураг</div>
-          <div class="product-cell">Нэр</div>
-          <div class="product-cell">Үнэ</div>
-          <div class="product-cell">Ширхэг</div>
+          <div class="product-cell">
+            <input type="file" accept="image/*" onchange="previewImage(this, 'preview2')" />
+            <img id="preview2" src="#" alt="Зураг" style="display: none; width: 100px; margin-top: 5px;" />
+          </div>
+          <div class="product-cell">
+            <input type="text" placeholder="Барааны нэр" />
+          </div>
+          <div class="product-cell">
+            <input type="number" placeholder="₮ Үнэ" />
+          </div>
+          <div class="product-cell">
+            <input type="number" placeholder="Ширхэг тоо" />
+          </div>
+        </div>
+      
+        <!-- Third Product Row -->
+        <div class="product-row">
+          <div class="product-cell">
+            <input type="file" accept="image/*" onchange="previewImage(this, 'preview3')" />
+            <img id="preview3" src="#" alt="Зураг" style="display: none; width: 100px; margin-top: 5px;" />
+          </div>
+          <div class="product-cell">
+            <input type="text" placeholder="Барааны нэр" />
+          </div>
+          <div class="product-cell">
+            <input type="number" placeholder="₮ Үнэ" />
+          </div>
+          <div class="product-cell">
+            <input type="number" placeholder="Ширхэг тоо" />
+          </div>
+        </div>
+      
+        <!-- Finish Adding Button -->
+        <div style="text-align: center; margin-top: 20px;">
+          <button class="finish-button" onclick="finishAdding()">Finish Adding</button>
         </div>
       </div>
+      
+      
+      </div>
+      
+      
     </div>
     
     <script src="script.js"></script>
